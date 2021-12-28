@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(hrbg.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+.main nav{
+    text-align: center;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 10px 0px 0px 30px;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+a:hover{
+    color: tomato;
+}
+
+.socialmedia{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    opacity: 60%;
+    border-radius: 20px;
+    margin: 20px 10px 10px 20px;
+    box-shadow: 3px 3px 4px 0px tomato;
+    /* border: 2px solid white;   */
+}
+.socialmedia p a{
+    margin: 10px 10px;
+    justify-content: space-around;
+
+}
+
+.socialmedia p a:hover{
+    opacity: 0.5;
+}
+
+.socialmedia p{
+    margin: 10px 10px;
+    text-align: center;
+    
+}
+.socialmedia p a img{
+    height: 30px;
+    width: 30px;
+    margin-top: 50px 0px;
+}
+
+.socialmedia hr{
+    width: 80%;
+    margin-left: 20px;
+    border-top: 2px solid tomato;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.dp{
+    width: 108px;
+    height: 108px;
+    margin: 18px 1px 1px 50px;
+}
+
+.brand{
+   font-family: 'Qwitcher Grypen', cursive;
+   font-size: 80px;
+   color: white;
+   align-items: flex-end;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.rightsec{
+    margin-left: 40px;
+}
+  
+
+.fanpage{
+    font-size: 25px;
+    color: tomato;
+    /* border: 2px solid white;   */
+
+}
+
+.footer{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 0px;
+    /* right: 50%; */
+}
+
+
+.credit{
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+.contact{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* border: 1px solid white; */
+
+}
+.contact a{
+    /* padding: 0px; */
+    margin: 0px 10px;
+
+}
+
+.contact a img{
+    margin: 0px;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+        /* border: 1px solid white; */
+
+
+}
+
+
+.contact a:hover{
+    opacity: 0.5;
+}
+
+.latest{
+    background-color: tomato;
+    width: 70%;
+    height: 70%;
+    border: 1px solid white;
+    /* background-position: 20% 20%; */
+    position: absolute;
+   top: 20%;
+   right: 5%;
+
+}
+.latest div{
+    border: 1px solid white;
+    width: 30%;
+    height: 30%;
+}
+.one{
+    background-position: 10% 10%;
+}
+
+
