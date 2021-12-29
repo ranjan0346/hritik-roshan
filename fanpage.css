@@ -38,7 +38,7 @@ a:hover{
     opacity: 60%;
     border-radius: 20px;
     margin: 20px 10px 10px 20px;
-    box-shadow: 3px 3px 4px 0px tomato;
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.8);
     /* border: 2px solid white;   */
 }
 .socialmedia p a{
@@ -75,6 +75,7 @@ a:hover{
     width: 108px;
     height: 108px;
     margin: 18px 1px 1px 50px;
+    opacity: 1;
 }
 
 .brand{
@@ -145,23 +146,53 @@ a:hover{
 }
 
 .latest{
-    background-color: tomato;
+    /* background-color: tomato; */
     width: 70%;
     height: 70%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     /* background-position: 20% 20%; */
     position: absolute;
    top: 20%;
    right: 5%;
+   display: flex;
+   justify-content:space-around ;
+   flex-wrap: wrap;
 
 }
 .latest div{
-    border: 1px solid white;
-    width: 30%;
-    height: 30%;
+    margin: 0%;
+    padding: 0%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    /* border: 1px solid white; */
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    align-items: flex-end;
 }
+.latest div:hover{
+    opacity: 1;
+    transition: all 0.4s;
+}
+
 .one{
-    background-position: 10% 10%;
+    background-image: url(one.jpg);
+    align-items: flex-end;
+   
+
 }
 
+.two{
+    background-image: url(two.jpg);
+}
 
+.three{
+    background-image: url(three.jpg);
+}
+
+.four{
+    background-image: url(four.jpg);
+}
